@@ -9,6 +9,7 @@ Some knowledge about JS apps
 - Download mack_launcher (https://github.com/Mackgame4/mack_launcher)  
 - Open a CMD and run 'cd ".../mack_launcher' (An IDE like VSCode terminal would be better)
 - Then make sure you have the [Requirements](https://github.com/Mackgame4/mack_launcher#-requirements)
+- Edit the Server IP on './JS/gtav.js'
 - Run 'npm run dev' to execute the launcher
 - Now to compile to distribution
 - Run 'npm install electron-packager --save-dev' and 'npm install electron-packager -g' to install electron-packager
