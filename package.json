@@ -1,0 +1,23 @@
+{
+  "name": "mack_launcher",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "child_process": "^1.0.2",
+    "electron": "^11.2.1",
+    "fs": "0.0.1-security",
+    "regedit": "^3.0.3"
+  },
+  "devDependencies": {
+    "electron-packager": "^15.2.0"
+  }
+}

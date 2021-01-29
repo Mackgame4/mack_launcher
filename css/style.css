@@ -1,0 +1,315 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+* {
+    outline: none;
+    box-sizing: border-box;
+}
+
+html {
+    width: 1305px;
+    height: 730px;
+    transform: scale(0.7);
+    transform-origin: 0 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #14171c; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: white; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: gray; 
+}
+
+body {
+    /*background-color: transparent !important;*/
+    background-image: url("https://i.redd.it/zh5aw3txcc701.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+header {
+    width: 100%;
+    height: 90px;
+    color: rgb(235, 235, 235);
+    font-size: 35px;
+    padding-top: 20px;
+    padding-left: 120px;
+    background: rgba( 74, 74, 74, 0.35 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-bottom: 2px solid gray;
+}
+
+header p {
+    position: absolute;
+    top: 45px;
+    right: 10px;
+    color: white;
+    font-size: 17px;
+    text-decoration: none;
+    transition: color 0.1s linear;
+    cursor: pointer;
+}
+
+header a {
+    margin-right: 10px;
+    color: white;
+    text-decoration: none;
+    transition: color 0.1s linear;
+    cursor: pointer;
+}
+
+header button {
+    position: relative;
+    top: -25px;
+    left: 700px;
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+    color: white;
+    font-size: 25px;
+    background: none;
+    border: none;
+}
+
+header button:hover {
+    background-color: #14171c;
+    border-radius: 7px;
+}
+
+.logo {
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    width: 60px;
+    height: 60px;
+    color: white;
+    font-size: 27px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 60px;
+    background-color: #14171c;
+    border-radius: 7px;
+}
+
+.activeplayers {
+    position: absolute;
+    left: 230px;
+    bottom: 90px;
+    color: white;
+    font-size: 17px;
+}
+
+.serverStatus {
+    position: absolute;
+    right: 190px;
+    bottom: 90px;
+    color: white;
+    font-size: 17px;
+}
+
+.menu {
+    width: 100px;
+    height: calc(100% - 90px);
+    color: white;
+    font-size: 47px;
+    text-align: center;
+    background: rgba( 0, 0, 0, 0.45 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 5px );
+    -webkit-backdrop-filter: blur( 5px );
+    border-right: 2px solid gray;
+}
+
+.fab {
+    margin-top: 25px;
+    padding: 7px 7px;
+    color: white;
+    text-decoration: none;
+    background-color: #14171c;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.fas {
+    position: absolute;
+    top: 510px;
+    left: 35px;
+    cursor: pointer;
+}
+
+.gamemode {
+    position: absolute;
+    top: 550px;
+    left: 20px;
+    width: 60px;
+    height: 60px;
+    color: white;
+    font-size: 27px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 60px;
+    background-color: #14171c;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.dropup-content {
+    color: white;
+    font-size: 27px;
+}
+
+.dropup-content img {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    bottom: 0px;
+    margin-left: -30px;
+    color: white;
+    font-size: 27px;
+    background-color: #14171c;
+    border-radius: 7px;
+    transition: bottom 0.1s linear;
+    z-index: -1;
+}
+
+.main {
+    position: absolute;
+    top: 90px;
+    left: 100px;
+    width: calc(100% - 100px);
+    height: calc(100% - 90px);
+    background: rgba( 74, 74, 74, 0.35 );
+    backdrop-filter: blur( 1px );
+    -webkit-backdrop-filter: blur( 1px );
+}
+
+#title-bar-btns {
+    -webkit-app-region: no-drag;
+    position: fixed;
+    top: 0px;
+    right: 6px;
+}
+
+#main-gtav {
+    display: block;
+}
+
+#main-gtav button {
+    position: absolute;
+    left: 550px;
+    bottom: 30px;
+    color: white;
+    font-size: 27px;
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    border-radius: 7px;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+}
+
+#console {
+    position: relative;
+    width: 500px;
+    height: 450px;
+    bottom: 410px;
+    left: 660px;
+    color: white;
+    background-color: #14171c;
+    border-radius: 7px;
+}
+
+#console p {
+    line-height: 32px;
+    margin-bottom: -30px;
+    padding: 4px 9px;
+}
+
+table {
+    display: block;
+    position: relative;
+    top: 50px;
+    left: 50px;
+    width: 500px;
+    height: 450px;
+    color: white;
+    background-color: #14171c;
+    border-radius: 7px;
+    border-collapse: collapse;
+    overflow-y:scroll;
+}
+
+.alignTable {
+    width: 350px;
+    height: 30px;
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+}
+
+.progress-bar {
+    height: 35px;
+    background:#c04751; 
+    width:0px;
+    text-align:center;
+    border: 2px solid gray;
+    border-radius: 7px;
+}
+
+.pp{
+    position: absolute;
+    left: 290px;
+    bottom: 29px;
+    width : 600px;
+    background-color: gray;
+    border-radius: 7px;
+}
+
+#main-rdr {
+    display: none;
+    color: white;
+    font-size: 27px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 600px;
+}
+
+#main-rust {
+    display: none;
+    color: white;
+    font-size: 27px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 600px;
+}
+
+footer {
+    position: absolute;
+    right: 4px;
+    bottom: 3px;
+    color: white;
+    font-size: 7px;
+    text-align: center;
+}

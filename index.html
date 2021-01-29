@@ -1,0 +1,62 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Mack Launcher</title>
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="css/style.css" rel="stylesheet" type="text/css"/>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script><script src="./jquery.js"></script>
+    </head>
+    <body>
+        <header>
+            <div class="logo">MK</div>
+            <a href="http://www.iammack.epizy.com" target="_blank" onmouseover="this.style.color='#14171c'" onmouseout="this.style.color='white'">WEBSITE</a>
+            <a href="https://github.com/Mackgame4" target="_blank" onmouseover="this.style.color='#14171c'" onmouseout="this.style.color='white'">HELP</a>
+            <a href="https://www.discord.io/mack" target="_blank" onmouseover="this.style.color='#14171c'" onmouseout="this.style.color='white'">FORUM</a>
+            <button id="minimizeBtn">_</button><button id="closeBtn">X</button>
+            <p>Welcome back, <span>User</span></p>
+        </header>
+        <div id="menu" class="menu">
+            <a class="fab fa-discord" href="https://www.discord.io/mack" target="_blank"></a>
+            <br>
+            <a class="fab fa-teamspeak" href="https://www.discord.io/mack" target="_blank"></a>
+            <i class="fas fa-caret-up"></i>
+            <div id="gamemode" class="gamemode">
+                <img id="selectedGame" src="./gtav.svg" width="100%" height="100%">
+                <div class="dropup-content">
+                    <img id="gtav" src="./gtav.svg" width="100%" height="100%">
+                    <img id="rdr" src="./rdr.svg" width="100%" height="100%">
+                    <img id="rust" src="./rust.svg" width="100%" height="100%">
+                </div>
+            </div>
+        </div>
+        <div id="main" class="main">
+            <div id="main-gtav">
+                <table id="players">
+                  <tr>
+                    <th class="alignTable">Id</th>
+                    <th class="alignTable">Name</th>
+                    <th class="alignTable">Ping</th>
+                  </tr>
+                </table>
+                <p class="activeplayers">Players: <span id="apiPlayers" style="color: red;">128</span>/<span id="apiMaxClients">128</span></p>
+                <div id="console">
+                    <p>Welcome to Mack Launcher!</p>
+                </div>
+                <p class="serverStatus">Server Status: <span id="apiStatus" style="color: green;">Online</span></p>
+                <div class="pp">
+                    <div class="progress-bar"></div>
+                </div>
+                <button id="btnPlay">Play</button>
+            </div>
+            <div id="main-rdr">
+                <span>Coming Soon!</span>
+            </div>
+            <div id="main-rust">
+                <span>Coming Soon!</span>
+            </div>
+        </div>
+        <footer>Made by Mackgame4</footer>
+    </body>
+    <script src="js/app.js" type="text/javascript"></script><script src="js/gtav.js" type="text/javascript"></script>
+</html>
