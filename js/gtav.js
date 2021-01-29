@@ -5,9 +5,9 @@ const regedit = require('regedit');
 const axios = require('axios');
 regedit.setExternalVBSLocation('resources/regedit/vbs')
 var DIR_FiveM = "";
-var IPServer = "localhost"
+var IPServer = "localhost:30120"
 
-axios.get('http://165.227.163.21:30120/dynamic.json')
+axios.get(`http://${IPServer}/dynamic.json`)
 .then(function (response) {
   //console.log(response);
   //console.log(response.data.clients);
@@ -23,7 +23,7 @@ axios.get('http://165.227.163.21:30120/dynamic.json')
   // always executed
 });
 
-axios.get('http://165.227.163.21:30120/players.json')
+axios.get(`http://${IPServer}/players.json`)
 .then(function (response) {
   console.log(response);
   var i;
