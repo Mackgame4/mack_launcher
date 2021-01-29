@@ -24,6 +24,8 @@ Video: Coming Soon
 Join our [Discord](https://discord.io/mack) or in (https://discord.io/mack)  
 
 ## 🔖 Attention:  
+[<img src="https://github.com/appcraftstudio/buymeacoffee/raw/master/Images/snapshot-bmc-button.png">](https://www.buymeacoffee.com/mackgame4)
+
 ### License:  
 mack_phone license its based on *GNU Public License 3.0* with some minor changes, with one in special:  
 #### DO NOT RE-RELEASE WITHOU PERMITION, ONLY SHARE THE OFFICIAL REPOSITORY AND COSTUMIZE TO YOUR-SELF
