@@ -1,4 +1,5 @@
 # mack_launcher
+A nopixel styled launcher made by Mackgame4 and ElectronJS framework
 
 ## 🔒 Requirements:
 npm [https://www.npmjs.com]
