@@ -116,7 +116,6 @@ $(document).on('click', 'a[href^="http"]', function(event) {
 $( "#minimizeBtn" ).click(function() {
     var window = remote.getCurrentWindow();
     window.minimize();
-    child_process.execSync('start http://example.com')
 });
 
 $( "#closeBtn" ).click(function() {
