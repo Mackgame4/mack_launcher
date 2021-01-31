@@ -14,7 +14,7 @@ Some knowledge about JS apps
 - Run 'npm run dev' to execute the launcher
 - Now to compile to distribution
 - Run 'npm install electron-packager --save-dev' and 'npm install electron-packager -g' to install electron-packager
-- Run 'electron-packager <sourcedir> <appname> --platform=win32 --arch=x64' to compile and make it a .exe app (don't forget to change the <"values">)
+- Run 'electron-packager <"sourcedir"> <"appname"> --platform=win32 --arch=x64' to compile and make it a .exe app (don't forget to change the <"values">)
 
 ## 📷 Screenshots  
 Screenshot: https://i.imgur.com/l30Jwjm.png  
